@@ -63,7 +63,7 @@
     overflow-x: clip;
     bottom: 0;
     position: relative;
-    width: 110vw;
+    width: 100vw;
     z-index: 1;
     margin: 0;
 }
