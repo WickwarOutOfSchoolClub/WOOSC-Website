@@ -22,7 +22,7 @@ body {
     text-decoration: none;
 }
 
-a, b {
+a, span {
     background-color: #C5E8C6;
     border: none;
     border-radius: 14px;

@@ -16,36 +16,37 @@
     </div>
     <b class="header_open">We are open</b>
     <nav>
-        <input class="menu_checkbox" id="menu" type="checkbox">
-        <label class="menu_button" for="menu">
-            <img alt="menu icon" class="menu_image" src='/woosc-website/assets/hamburger.png'>
-        </label>
-        <div class="nav_links_container">
-            <div class="nav_links">
-                <ul>
-                    <li class="menu_one"><a href="/woosc-website/about/">About</a></li>
-                    <li class="menu_one_dropdown">
-                        <a href="/woosc-website/about/about-us/">About us</a>
-                        <a href="/woosc-website/about/newsletters/">Newsletter</a>
-                        <a href="/woosc-website/about/whats-on/">Whats on</a>
-                        <a href="/woosc-website/about/site/">The Site</a>
-                        <a href="/woosc-website/about/food/">Menu</a>
-                        <a href="/woosc-website/about/gallery/">Gallery</a>
-                        <a href="/woosc-website/about/development/">Our Development</a>
-                    </li>
-                    <li class="menu_two"><a href="/woosc-website/information/">Open times &amp; information</a></li>
-                    <li class="menu_two_dropdown">
-                        <a href="/woosc-website/information/opening_times/">Opening times &amp; charges</a>
-                        <a href="/woosc-website/information/arrivals_and_departures/">Arrivals and departures</a>
-                        <a href="/woosc-website/information/club_absence/">Club absence</a>
-                        <a href="/woosc-website/information/sickness_accidents_emergencies/">Sickness accidents and emergencies</a>
-                    </li>
-                    <li><a class="menu_three" href="/woosc-website/policies/">Policies</a></li>
-                    <li style="margin-right: 3vw"><a class="menu_four" href='/woosc-website/ofsted/Ofsted_inspection_2017.PDF'>Ofsted</a></li>
-                </ul>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="/woosc-website/about/about-us/">About us</a>
+                <a href="/woosc-website/about/newsletters/">Newsletter</a>
+                <a href="/woosc-website/about/whats-on/">Whats on</a>
+                <a href="/woosc-website/about/site/">The Site</a>
+                <a href="/woosc-website/about/food/">Menu</a>
+                <a href="/woosc-website/about/gallery/">Gallery</a>
+                <a href="/woosc-website/about/development/">Our Development</a>
+                <a href="/woosc-website/information/opening_times/">Opening times &amp; charges</a>
+                <a href="/woosc-website/information/arrivals_and_departures/">Arrivals and departures</a>
+                <a href="/woosc-website/information/club_absence/">Club absence</a>
+                <a href="/woosc-website/information/sickness_accidents_emergencies/">Sickness accidents and emergencies</a>
+                <a href="/woosc-website/policies/">Policies</a>
+                <a href='/woosc-website/ofsted/Ofsted_inspection_2017.PDF'>Ofsted</a>
             </div>
         </div>
+        <span style="margin-right: 2vw" onclick="openNav()">open</span>
     </nav>
+    <script>
+         
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+         
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+    </script>
 </header><main>
 <section class="main">
     <div class="single_container">

@@ -42,116 +42,71 @@ header {
     cursor: pointer;
 }
 
-.nav_links {
-    list-style: none;
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
 }
 
-.nav_links li {
-    display: inline-flex;
-    margin: 2px 2px;
-}
-
-.nav_links li a {
-    transition: all 0.3s ease 0s;
-}
-
-.nav_links li a:hover {
-    background-color: #B3CFB0;
-}
-
-.menu_checkbox {
-    display: none;
-}
-
-.menu_button {
-    display: none;
-}
-
-.header_open {
-    background-color: #9CE4E8;
-}
-
-.header_open:hover {
-    background-color: #8CD4D8;
-}
-
-.menu_one_dropdown {
-    transform: translateY(-10px);
-    display: none;
-    visibility: hidden;
-    position: absolute;
-    background-color: #E1BEE7;
-    padding: 2vh 2vw;
-    border-radius: 20px;
-}
-
-.menu_one_dropdown a {
-    display: none;
-}
-
-.menu_one:hover ~ .menu_one_dropdown {
+/* Position the content inside the overlay */
+.overlay-content {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    justify-content: space-between;
-    visibility: visible;
+    position: relative;
+    top: 6%; /* 25% from the top */
+    width: 100%; /* 100% width */
+    text-align: center; /* Centered text/links */
+    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
 }
 
-.menu_one:hover ~ .menu_one_dropdown > a {
-    display: block;
-    margin-top: 1vh;
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block; /* Display block instead of inline */
+    transition: 0.3s; /* Transition effects on hover (color) */
 }
 
-.menu_one_dropdown:hover {
-    display: block;
-    visibility: visible;
+.overlay-content a {
+    width: 50vw;
+    min-width: fit-content;
+    margin-bottom: 8px;
+}
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
 }
 
-.menu_one_dropdown:hover > a {
-    display: block;
-    margin-top: 1vh;
-}
-
-
-
-
-
-.menu_two_dropdown {
-    transform: translateY(-10px);
-    display: none;
-    visibility: hidden;
+/* Position the close button (top right corner) */
+.overlay .closebtn {
     position: absolute;
-    background-color: #E1BEE7;
-    padding: 2vh 2vw;
-    border-radius: 20px;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
 }
 
-.menu_two_dropdown a {
-    display: none;
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
 }
-
-.menu_two:hover ~ .menu_two_dropdown {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    visibility: visible;
-    position: absolute;
-}
-
-.menu_two:hover ~ .menu_two_dropdown > a {
-    display: block;
-    margin-top: 1vh;
-}
-
-.menu_two_dropdown:hover {
-    display: block;
-    visibility: visible;
-}
-
-.menu_two_dropdown:hover > a {
-    display: block;
-    margin-top: 1vh;
-}
-
 
 
 
@@ -165,10 +120,6 @@ header {
     .header_text {
         font-size: 40px;
         font-weight: 400;
-    }
-
-    .nav_links {
-        margin: 1px;
     }
 }
 
@@ -189,138 +140,4 @@ header {
         display: inline-flex;
         max-width: 80vw;
     }
-
-    .menu_checkbox {
-        display: none;
-    }
-
-    .nav_links {
-        margin: 0;
-        padding: 0 3vw;
-    }
-
-    .menu_button {
-        align-items: center;
-        background-color: #C5E8C6;
-        border: none;
-        border-radius: 14px;
-        color: #000000;
-        cursor: pointer;
-        display: flex;
-        float: right;
-        font-family: 'Amatic SC', cursive;
-        font-size: 4vw;
-        height: 3vw;
-        justify-content: center;
-        margin-right: 3vw;
-        padding: 20px 30px;
-        text-decoration: none;
-        width: 4vw;
-    }
-
-    .menu_image {
-        display: block;
-        height: 50px;
-        position: relative;
-    }
-
-    .nav_links_container {
-        display: none;
-    }
-
-
-    .menu_checkbox:checked ~ .nav_links_container {
-        -moz-animation: fadeInFromNone 0.5s ease-out;
-        -o-animation: fadeInFromNone 0.5s ease-out;
-        -webkit-animation: fadeInFromNone 0.5s ease-out;
-        animation: fadeInFromNone 0.5s ease-out;
-        display: flex;
-        justify-content: space-between;
-        width: max-content;
-    }
-
-    @-webkit-keyframes fadeInFromNone {
-        0% {
-            display: none;
-            opacity: 0;
-        }
-        1% {
-            display: block;
-            opacity: 0;
-        }
-        100% {
-            display: block;
-            opacity: 1;
-        }
-    }
-
-    @-moz-keyframes fadeInFromNone {
-        0% {
-            display: none;
-            opacity: 0;
-        }
-        1% {
-            display: block;
-            opacity: 0;
-        }
-        100% {
-            display: block;
-            opacity: 1;
-        }
-    }
-
-    @-o-keyframes fadeInFromNone {
-        0% {
-            display: none;
-            opacity: 0;
-        }
-        1% {
-            display: block;
-            opacity: 0;
-        }
-        100% {
-            display: block;
-            opacity: 1;
-        }
-    }
-
-    @keyframes fadeInFromNone {
-        0% {
-            display: none;
-            opacity: 0;
-        }
-        1% {
-            display: block;
-            opacity: 0;
-        }
-        100% {
-            display: block;
-            opacity: 1;
-        }
-    }
-
-    .menu_checkbox:checked ~ .nav_links_container .nav_links {
-        align-items: center;
-        background-color: #B3C0FF;
-        display: flex;
-        justify-content: space-between;
-        left: 0;
-        margin-top: 8vh;
-        position: fixed;
-        width: 100vw;
-    }
-
-    .menu_checkbox:checked ~ .nav_links_container .nav_links li {
-        display: block;
-    }
-
-    .menu_checkbox:checked ~ .nav_links_container .nav_links li a {
-        display: block;
-        font-size: 4vw;
-    }
-
-    b {
-        font-size: 3vw;
-    }
-
 }

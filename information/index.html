@@ -16,49 +16,45 @@
     </div>
     <b class="header_open">We are open</b>
     <nav>
-        <div id="myNav" class="overlay">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-            <div class="overlay-content">
-                <a href="/woosc-website/about/about-us/">About us</a>
-                <a href="/woosc-website/about/newsletters/">Newsletter</a>
-                <a href="/woosc-website/about/whats-on/">Whats on</a>
-                <a href="/woosc-website/about/site/">The Site</a>
-                <a href="/woosc-website/about/food/">Menu</a>
-                <a href="/woosc-website/about/gallery/">Gallery</a>
-                <a href="/woosc-website/about/development/">Our Development</a>
-                <a href="/woosc-website/information/opening_times/">Opening times &amp; charges</a>
-                <a href="/woosc-website/information/arrivals_and_departures/">Arrivals and departures</a>
-                <a href="/woosc-website/information/club_absence/">Club absence</a>
-                <a href="/woosc-website/information/sickness_accidents_emergencies/">Sickness accidents and emergencies</a>
-                <a href="/woosc-website/policies/">Policies</a>
-                <a href='/woosc-website/ofsted/Ofsted_inspection_2017.PDF'>Ofsted</a>
+        <input class="menu_checkbox" id="menu" type="checkbox">
+        <label class="menu_button" for="menu">
+            <img alt="menu icon" class="menu_image" src='/woosc-website/assets/hamburger.png'>
+        </label>
+        <div class="nav_links_container">
+            <div class="nav_links">
+                <ul>
+                    <li class="menu_one"><a href="/woosc-website/about/">About</a></li>
+                    <li class="menu_one_dropdown">
+                        <a href="/woosc-website/about/about-us/">About us</a>
+                        <a href="/woosc-website/about/newsletters/">Newsletter</a>
+                        <a href="/woosc-website/about/whats-on/">Whats on</a>
+                        <a href="/woosc-website/about/site/">The Site</a>
+                        <a href="/woosc-website/about/food/">Menu</a>
+                        <a href="/woosc-website/about/gallery/">Gallery</a>
+                        <a href="/woosc-website/about/development/">Our Development</a>
+                    </li>
+                    <li class="menu_two"><a href="/woosc-website/information/">Open times &amp; information</a></li>
+                    <li class="menu_two_dropdown">
+                        <a href="/woosc-website/information/opening_times/">Opening times &amp; charges</a>
+                        <a href="/woosc-website/information/arrivals_and_departures/">Arrivals and departures</a>
+                        <a href="/woosc-website/information/club_absence/">Club absence</a>
+                        <a href="/woosc-website/information/sickness_accidents_emergencies/">Sickness accidents and emergencies</a>
+                    </li>
+                    <li><a class="menu_three" href="/woosc-website/policies/">Policies</a></li>
+                    <li style="margin-right: 3vw"><a class="menu_four" href='/woosc-website/ofsted/Ofsted_inspection_2017.PDF'>Ofsted</a></li>
+                </ul>
             </div>
         </div>
-        <span style="margin-right: 2vw" onclick="openNav()">open</span>
     </nav>
-    <script>
-         
-        function openNav() {
-            document.getElementById("myNav").style.width = "100%";
-        }
-
-         
-        function closeNav() {
-            document.getElementById("myNav").style.width = "0%";
-        }
-    </script>
 </header><main>
 <section class="main">
     <div class="single_container">
         <div class="single_text">
-            <h2>Club absence</h2><br>
-            <p>Please note that the Club must be informed if your child/ren are booked into the After School Club but will not be attending, for example, going to a friend’s house. If we are not informed, your child will be classed as ‘missing’ and the Missing Child Policy procedures will be put into action, which could result in the police being informed.</p>
-<ul>
-<li>If your child is unwell and therefore will not be attending a booked Before School session, please telephone the club by 7.50am on the morning of their absence.  This number is diverted to a staff member where possible outside normal club operating hours, but if your call is not answered please text a message, this will be picked up by a member of staff when the club opens.</li>
-<li>If your child falls ill during the school day and is taken home and therefore will not be attending a booked After School session, please telephone the club or text a message at any time which will be picked up by a member of staff when the club opens.</li>
-<li>If your child is unwell and will not be attending a booked After School session, please telephone the club by 8.45am on the morning of their absence.</li>
-<li>If your child will not be attending a booked After School session for any other reason, for example going to a friends house after school instead of attending the after school club, please telephone the club or text a message at any time which will be picked up by a member of staff when the club opens.</li>
-</ul>
+            <h2>Information</h2><br>
+            <p><a href="opening_times/">Our Opening times and charges</a>
+<a href="arrivals_and_departures/">Arrivals and Departures</a>
+<a href="club_absence/">Club absences</a>
+<a href="sickness_accidents_emergencies/">Sickness, accidents and emergencies</a></p>
 
         </div>
     </div>
