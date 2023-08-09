@@ -17,24 +17,35 @@
     <b class="header_open">We are open</b>
     <nav>
         <div id="myNav" class="overlay">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img alt="menu icon" src='/woosc-website/assets/close.svg'></a>
             <div class="overlay-content">
-                <a href="/woosc-website/about/about-us/">About us</a>
-                <a href="/woosc-website/about/newsletters/">Newsletter</a>
-                <a href="/woosc-website/about/whats-on/">Whats on</a>
-                <a href="/woosc-website/about/site/">The Site</a>
-                <a href="/woosc-website/about/food/">Menu</a>
-                <a href="/woosc-website/about/gallery/">Gallery</a>
-                <a href="/woosc-website/about/development/">Our Development</a>
-                <a href="/woosc-website/information/opening_times/">Opening times &amp; charges</a>
-                <a href="/woosc-website/information/arrivals_and_departures/">Arrivals and departures</a>
-                <a href="/woosc-website/information/club_absence/">Club absence</a>
-                <a href="/woosc-website/information/sickness_accidents_emergencies/">Sickness accidents and emergencies</a>
+                <a href="/woosc-website/">Home</a>
+                <div class="dropdown">
+                    <button onclick="dropdownOne()" class="dropbtn">About</button>
+                    <div id="dropdownOne" class="dropdown-content">
+                        <a href="/woosc-website/about/about-us/">About us</a>
+                        <a href="/woosc-website/about/newsletters/">Newsletter</a>
+                        <a href="/woosc-website/about/whats-on/">Whats on</a>
+                        <a href="/woosc-website/about/site/">The Site</a>
+                        <a href="/woosc-website/about/food/">Menu</a>
+                        <a href="/woosc-website/about/gallery/home_page/">Gallery</a>
+                        <a href="/woosc-website/about/development/">Our Development</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button onclick="dropdownTwo()" class="dropbtn">Open times &amp; information</button>
+                    <div id="dropdownTwo" class="dropdown-content">
+                        <a href="/woosc-website/information/opening_times/">Opening times &amp; charges</a>
+                        <a href="/woosc-website/information/arrivals_and_departures/">Arrivals and departures</a>
+                        <a href="/woosc-website/information/club_absence/">Club absence</a>
+                        <a href="/woosc-website/information/sickness_accidents_emergencies/">Sickness accidents and emergencies</a>
+                    </div>
+                </div>
                 <a href="/woosc-website/policies/">Policies</a>
                 <a href='/woosc-website/ofsted/Ofsted_inspection_2017.PDF'>Ofsted</a>
             </div>
         </div>
-        <span style="margin-right: 2vw" onclick="openNav()">open</span>
+        <span style="margin-right: 2vw" onclick="openNav()"><img alt="menu icon" class="menu_image" src='/woosc-website/assets/hamburger.svg'></span>
     </nav>
     <script>
          
@@ -46,12 +57,34 @@
         function closeNav() {
             document.getElementById("myNav").style.width = "0%";
         }
+
+        function dropdownOne() {
+            document.getElementById("dropdownOne").classList.toggle("show");
+        }
+
+        function dropdownTwo() {
+            document.getElementById("dropdownTwo").classList.toggle("show");
+        }
+
+        
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
     </script>
 </header><main>
 <body>
 <link rel="stylesheet" href='/woosc-website/css/index.css' type="text/css" media="all" />
 
-<div class="slideshow">
+<div id="Slideshow" class="slideshow">
     <div class="slideshow-container">
         <img class="mySlides slider_image slider_fade slide" alt="" src='/woosc-website/images/slider/1.JPG'>
         <img class="mySlides slider_image slider_fade slide" alt="" src='/woosc-website/images/slider/2.JPG'>
@@ -65,12 +98,12 @@
 </div>
 
 
-<div class="about">
+<div id="About" class="about">
     <h2><u>About us</u></h2>
     <p style="text-align: center; max-width: 80%">Wickwar Out of School Club (WOOSC) is based on the site of Alexander Hosea Primary School (AHPS) and was opened in 1998. We are a non-profit-making organisation run by a Voluntary Management Committee and are registered with Ofsted to care for up to 40 children before school, after school and during the school holidays.</p>
     <p style="text-align: center; max-width: 80%">If you are intersted in funding or donating to WOOSC please get in contacct.</p>
 
-    <div class="about_card">
+    <div id="About_card_1" class="about_card">
         <div class="left overlap_left about_text">
             <h3><u>Latest Newsletters</u></h3>
             <p></p>
@@ -80,7 +113,7 @@
              src='/woosc-website/images/about_newsletter.JPG'>
     </div>
 
-    <div class="about_card">
+    <div id="About_card_2" class="about_card">
         <img alt="Children playing on the site" class="about_image left overlap_left"
              src='/woosc-website/images/about_site.JPG'>
         <div class="right overlap_right about_text">
@@ -90,7 +123,7 @@
         </div>
     </div>
 
-    <div class="about_card">
+    <div id="About_card_3" class="about_card">
         <div class="left overlap_left about_text">
             <h3><u>Opening times and charges</u></h3>
             <p></p>
@@ -100,7 +133,7 @@
              src='/woosc-website/images/about_open.JPG'>
     </div>
 
-    <div class="about_card">
+    <div id="About_card_4" class="about_card">
         <img alt="Children playing on the site" class="about_image left overlap_left"
              src='/woosc-website/images/about_team.JPG'>
         <div class="right overlap_right about_text">
@@ -110,7 +143,7 @@
         </div>
     </div>
 
-    <div class="about_card">
+    <div id="About_card_5" class="about_card">
         <div class="left overlap_left about_text">
             <h3><u>Regestration form &amp; Handbook</u></h3>
             <p>(Download links)</p>
@@ -125,9 +158,9 @@
 </div>
 
 
-<div class="aims">
+<div id="Aims" class="aims">
     <h2><u>Our Aims</u></h2>
-    <div class="aims_container">
+    <div id="Aims_1" class="aims_container">
         <div class="aim_card aim_card_1">
             <div class="aim_text">
                 <h4>To offer free play, giving children a wide choice of activities, including relaxation, craft and recreational activities.</h4>
@@ -137,7 +170,7 @@
             </div>
         </div>
 
-        <div class="aim_card aim_card_2">
+        <div id="Aims_2" class="aim_card aim_card_2">
             <div class="aim_text">
                 <h4>To provide fun, quality, affordable out of school childcare in a safe caring environment for children in full time primary education.</h4>
             </div>
@@ -146,7 +179,7 @@
             </div>
         </div>
 
-        <div class="aim_card aim_card_3">
+        <div id="Aims_3" class="aim_card aim_card_3">
             <div class="aim_text">
                 <h4>To provide equal opportunities for all the children in our care.</h4>
             </div>
@@ -161,31 +194,53 @@
     <img alt="" src='/woosc-website/assets/transitions/to_gallery.svg' style="width: 100%">
 </div>
 
-<div class="gallery">
+<div id="Gallery" class="gallery">
     <h2>Gallery</h2>
     <div class="gallery_line"></div>
     <div class="gallery_container" id="imageGallery">
-        <div class="gallery_image_box one image">
-            <img class="gallery_image" src='/woosc-website/images/gallery_preview/1.JPG' alt="">
-        </div>
-        <div class="gallery_image_box two image">
-            <img class="gallery_image" src='/woosc-website/images/gallery_preview/2.JPG' alt="">
-        </div>
-        <div class="gallery_image_box three image">
-            <img class="gallery_image" src='/woosc-website/images/gallery_preview/3.JPG' alt="">
-        </div>
-        <div class="gallery_image_box four image">
-            <img class="gallery_image" src='/woosc-website/images/gallery_preview/4.JPG' alt="">
-        </div>
-        <div class="gallery_image_box five image">
-            <img class="gallery_image" src='/woosc-website/images/gallery_preview/5.JPG' alt="">
-        </div>
-        <div class="gallery_image_box six image">
-            <img class="gallery_image" src='/woosc-website/images/gallery_preview/6.JPG' alt="">
-        </div>
+        <a href="/woosc-website/about/gallery/play/" class="gallery_image_container one">
+            <div class="gallery_image_box">
+                <img class="gallery_image" src='/woosc-website/images/gallery_preview/1.JPG' alt="">
+            </div>
+            <b>PLay</b>
+        </a>
+
+        <a href="/woosc-website/about/gallery/sports/" class="gallery_image_container two">
+            <div class="gallery_image_box">
+                <img class="gallery_image" src='/woosc-website/images/gallery_preview/2.JPG' alt="">
+            </div>
+            <b>Sports</b>
+        </a>
+
+        <a href="/woosc-website/about/gallery/craft/" class="gallery_image_container three">
+            <div class="gallery_image_box">
+                <img class="gallery_image" src='/woosc-website/images/gallery_preview/3.JPG' alt="">
+            </div>
+            <b>Craft</b>
+        </a>
+
+        <a href="/woosc-website/about/gallery/visits/" class="gallery_image_container four">
+            <div class="gallery_image_box">
+                <img class="gallery_image" src='/woosc-website/images/gallery_preview/4.JPG' alt="">
+            </div>
+            <b>Visits</b>
+        </a>
+
+        <a href="/woosc-website/about/gallery/our_environment/" class="gallery_image_container five">
+            <div class="gallery_image_box">
+                <img class="gallery_image" src='/woosc-website/images/gallery_preview/5.JPG' alt="">
+            </div>
+            <b>Our Envrionment</b>
+        </a>
+
+        <a href="/woosc-website/about/gallery/celebrations/" class="gallery_image_container six">
+            <div class="gallery_image_box">
+                <img class="gallery_image" src='/woosc-website/images/gallery_preview/6.JPG' alt="">
+            </div>
+            <b>Celebrations</b>
+        </a>
     </div>
     <div class="gallery_line"></div>
-    <a href="/woosc-website/gallery" class="gallery_button">&lt;- View More -&gt;</a>
 </div>
 <script src="/woosc-website/js/slider.js"></script>
 </body>
@@ -206,21 +261,22 @@
             </p>
         </div>
 
-        <div class="footer_item" style="width: 29vw; display: flex; justify-content: center">
+        <div class="footer_item" style="display: flex; justify-content: center">
             <img alt="WOOSC Logo" class="footer_logo" src='/woosc-website/assets/Logo.png'>
         </div>
 
-        <div class="footer_item" style="width: 29vw; padding-right: 2vw">
+        <div class="footer_item" style="padding-right: 2vw">
             <h2><u>Contact Information</u></h2><br>
             <p>
-                <a style="font-size: clamp(20px, 2vw, 45px);" href='tel:07815%20561783'>07815 561783</a><br><br>
-                <a style="font-size: clamp(20px, 2vw, 45px);" href='mailto:woosc@hotmail.co.uk'>woosc@hotmail.co.uk</a>
+                <a style="font-size: clamp(20px, 2vw, 45px);" href='tel:07815%20561783'>Phone: 07815 561783</a><br><br>
+                <a style="font-size: clamp(20px, 2vw, 45px);" href='mailto:woosc@hotmail.co.uk'>Email: woosc@hotmail.co.uk</a>
             </p>
 
         </div>
     </div>
     <div class="credits">
-        <a href="mailto:teilo_coates@outlook.com">By Teilo Coates.</a>
+        <a href="mailto:teilo_coates@outlook.com">Designed and made by Teilo Coates.</a>
+        <p>All rights reserved © 2023 - WOOSC - Wickwar Out Of School Club</p>
     </div>
 </footer>
 

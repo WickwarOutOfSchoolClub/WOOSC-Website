@@ -41,6 +41,12 @@ footer h2 {
     width: 100vw;
 }
 
+.credits p {
+    margin-top: 1vh;
+    font-size: 2vh;
+    margin-bottom: 1vh;
+}
+
 
 @media only screen and (max-width: 1050px) {
     .footer_container {
@@ -59,5 +65,9 @@ footer h2 {
     .footer_contact {
         font-size: 3vw;
         margin-bottom: 2vh;
+    }
+
+    .credits p {
+        font-size: 10px;
     }
 }

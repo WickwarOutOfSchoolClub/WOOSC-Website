@@ -17,24 +17,35 @@
     <b class="header_open">We are open</b>
     <nav>
         <div id="myNav" class="overlay">
-            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img alt="menu icon" src='/woosc-website/assets/close.svg'></a>
             <div class="overlay-content">
-                <a href="/woosc-website/about/about-us/">About us</a>
-                <a href="/woosc-website/about/newsletters/">Newsletter</a>
-                <a href="/woosc-website/about/whats-on/">Whats on</a>
-                <a href="/woosc-website/about/site/">The Site</a>
-                <a href="/woosc-website/about/food/">Menu</a>
-                <a href="/woosc-website/about/gallery/">Gallery</a>
-                <a href="/woosc-website/about/development/">Our Development</a>
-                <a href="/woosc-website/information/opening_times/">Opening times &amp; charges</a>
-                <a href="/woosc-website/information/arrivals_and_departures/">Arrivals and departures</a>
-                <a href="/woosc-website/information/club_absence/">Club absence</a>
-                <a href="/woosc-website/information/sickness_accidents_emergencies/">Sickness accidents and emergencies</a>
+                <a href="/woosc-website/">Home</a>
+                <div class="dropdown">
+                    <button onclick="dropdownOne()" class="dropbtn">About</button>
+                    <div id="dropdownOne" class="dropdown-content">
+                        <a href="/woosc-website/about/about-us/">About us</a>
+                        <a href="/woosc-website/about/newsletters/">Newsletter</a>
+                        <a href="/woosc-website/about/whats-on/">Whats on</a>
+                        <a href="/woosc-website/about/site/">The Site</a>
+                        <a href="/woosc-website/about/food/">Menu</a>
+                        <a href="/woosc-website/about/gallery/home_page/">Gallery</a>
+                        <a href="/woosc-website/about/development/">Our Development</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button onclick="dropdownTwo()" class="dropbtn">Open times &amp; information</button>
+                    <div id="dropdownTwo" class="dropdown-content">
+                        <a href="/woosc-website/information/opening_times/">Opening times &amp; charges</a>
+                        <a href="/woosc-website/information/arrivals_and_departures/">Arrivals and departures</a>
+                        <a href="/woosc-website/information/club_absence/">Club absence</a>
+                        <a href="/woosc-website/information/sickness_accidents_emergencies/">Sickness accidents and emergencies</a>
+                    </div>
+                </div>
                 <a href="/woosc-website/policies/">Policies</a>
                 <a href='/woosc-website/ofsted/Ofsted_inspection_2017.PDF'>Ofsted</a>
             </div>
         </div>
-        <span style="margin-right: 2vw" onclick="openNav()">open</span>
+        <span style="margin-right: 2vw" onclick="openNav()"><img alt="menu icon" class="menu_image" src='/woosc-website/assets/hamburger.svg'></span>
     </nav>
     <script>
          
@@ -45,6 +56,28 @@
          
         function closeNav() {
             document.getElementById("myNav").style.width = "0%";
+        }
+
+        function dropdownOne() {
+            document.getElementById("dropdownOne").classList.toggle("show");
+        }
+
+        function dropdownTwo() {
+            document.getElementById("dropdownTwo").classList.toggle("show");
+        }
+
+        
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
         }
     </script>
 </header><main>
@@ -87,21 +120,22 @@
             </p>
         </div>
 
-        <div class="footer_item" style="width: 29vw; display: flex; justify-content: center">
+        <div class="footer_item" style="display: flex; justify-content: center">
             <img alt="WOOSC Logo" class="footer_logo" src='/woosc-website/assets/Logo.png'>
         </div>
 
-        <div class="footer_item" style="width: 29vw; padding-right: 2vw">
+        <div class="footer_item" style="padding-right: 2vw">
             <h2><u>Contact Information</u></h2><br>
             <p>
-                <a style="font-size: clamp(20px, 2vw, 45px);" href='tel:07815%20561783'>07815 561783</a><br><br>
-                <a style="font-size: clamp(20px, 2vw, 45px);" href='mailto:woosc@hotmail.co.uk'>woosc@hotmail.co.uk</a>
+                <a style="font-size: clamp(20px, 2vw, 45px);" href='tel:07815%20561783'>Phone: 07815 561783</a><br><br>
+                <a style="font-size: clamp(20px, 2vw, 45px);" href='mailto:woosc@hotmail.co.uk'>Email: woosc@hotmail.co.uk</a>
             </p>
 
         </div>
     </div>
     <div class="credits">
-        <a href="mailto:teilo_coates@outlook.com">By Teilo Coates.</a>
+        <a href="mailto:teilo_coates@outlook.com">Designed and made by Teilo Coates.</a>
+        <p>All rights reserved © 2023 - WOOSC - Wickwar Out Of School Club</p>
     </div>
 </footer>
 

@@ -27,11 +27,65 @@ If your child is unwell and therefore will not be attending a booked Before Scho
     </item>
     
     <item>
-      <title>Gallery</title>
-      <link>https://t-m-coates.github.io/woosc-website/about/gallery/</link>
+      <title>Galleries</title>
+      <link>https://t-m-coates.github.io/woosc-website/about/gallery/home_page/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://t-m-coates.github.io/woosc-website/about/gallery/</guid>
+      <guid>https://t-m-coates.github.io/woosc-website/about/gallery/home_page/</guid>
+      <description>PLaySportsCraftVisitsOur EnvrionmentCelebrations</description>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <link>https://t-m-coates.github.io/woosc-website/about/gallery/celebrations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://t-m-coates.github.io/woosc-website/about/gallery/celebrations/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <link>https://t-m-coates.github.io/woosc-website/about/gallery/craft/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://t-m-coates.github.io/woosc-website/about/gallery/craft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <link>https://t-m-coates.github.io/woosc-website/about/gallery/our_environment/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://t-m-coates.github.io/woosc-website/about/gallery/our_environment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <link>https://t-m-coates.github.io/woosc-website/about/gallery/play/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://t-m-coates.github.io/woosc-website/about/gallery/play/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <link>https://t-m-coates.github.io/woosc-website/about/gallery/sports/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://t-m-coates.github.io/woosc-website/about/gallery/sports/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Gallery</title>
+      <link>https://t-m-coates.github.io/woosc-website/about/gallery/visits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://t-m-coates.github.io/woosc-website/about/gallery/visits/</guid>
       <description></description>
     </item>
     
