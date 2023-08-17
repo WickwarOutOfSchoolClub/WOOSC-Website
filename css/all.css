@@ -74,14 +74,14 @@ p {
 
 @media only screen and (max-width: 1050px) {
     a, b, span {
-        font-size: 2vw;
+        font-size: clamp(12px, 2vw, 45px);
     }
 
     h2 {
-        font-size: 6vw;
+        font-size: clamp(12px, 6vw, 45px);
     }
 
     p, li {
-        font-size: 3vw;
+        font-size: clamp(12px, 3vw, 45px);
     }
 }
