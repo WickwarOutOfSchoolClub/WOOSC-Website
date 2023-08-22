@@ -1,0 +1,74 @@
+<header>
+    <link rel="stylesheet" href="/woosc-website/css/header.css" type="text/css" media="all" />
+    <div class="header_left">
+        <a class="header_image_a" href="/woosc-website/" style="background-color: unset"><img alt="Woosc logo" class="header_image" src='{{ i18n "logo_wide" }}'></a>
+        <a class="header_image_small_a" href="/woosc-website/" style="background-color: unset"><img alt="Woosc logo" class="header_image_small" src='{{ i18n "logo" }}'></a>
+        <h1 class="header_text"><strong>{{ i18n "header_title" }}</strong></h1>
+    </div>
+    <b class="header_open">{{ i18n "header_button_open" }}</b>
+    <nav>
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img alt="menu icon" src='{{ i18n "close" }}'></a>
+            <div class="overlay-content">
+                <a href="/woosc-website/">Home</a>
+                <div class="dropdown">
+                    <button onclick="dropdownOne()" class="dropbtn">{{ i18n "header_button_one" }}</button>
+                    <div id="dropdownOne" class="dropdown-content">
+                        <a href="/woosc-website/about/about-us/">{{ i18n "header_button_one_one" }}</a>
+                        <a href="/woosc-website/about/newsletters/">{{ i18n "header_button_one_two" }}</a>
+                        <a href="/woosc-website/about/whats-on/">{{ i18n "header_button_one_three" }}</a>
+                        <a href="/woosc-website/about/site/">{{ i18n "header_button_one_four" }}</a>
+                        <a href="/woosc-website/about/food/">{{ i18n "header_button_one_five" }}</a>
+                        <a href="/woosc-website/about/gallery/home_page/">{{ i18n "header_button_one_six" }}</a>
+                        <a href="/woosc-website/about/development/">{{ i18n "header_button_one_seven" }}</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button onclick="dropdownTwo()" class="dropbtn">{{ i18n "header_button_two" }}</button>
+                    <div id="dropdownTwo" class="dropdown-content">
+                        <a href="/woosc-website/information/opening_times/">{{ i18n "header_button_two_one" }}</a>
+                        <a href="/woosc-website/information/arrivals_and_departures/">{{ i18n "header_button_two_two" }}</a>
+                        <a href="/woosc-website/information/club_absence/">{{ i18n "header_button_two_three" }}</a>
+                        <a href="/woosc-website/information/sickness_accidents_emergencies/">{{ i18n "header_button_two_four" }}</a>
+                    </div>
+                </div>
+                <a href="/woosc-website/policies/">{{ i18n "header_button_three" }}</a>
+                <a href='/woosc-website/ofsted/{{ i18n "ofsted_file_name" }}'>{{ i18n "header_button_four" }}</a>
+            </div>
+        </div>
+        <span style="margin-right: 2vw" onclick="openNav()"><img alt="menu icon" class="menu_image" src='{{ i18n "hamburger" }}'></span>
+    </nav>
+    <script>
+        /* Open when someone clicks on the span element */
+        function openNav() {
+            document.getElementById("myNav").style.width = "100%";
+        }
+
+        /* Close when someone clicks on the "x" symbol inside the overlay */
+        function closeNav() {
+            document.getElementById("myNav").style.width = "0%";
+        }
+
+        function dropdownOne() {
+            document.getElementById("dropdownOne").classList.toggle("show");
+        }
+
+        function dropdownTwo() {
+            document.getElementById("dropdownTwo").classList.toggle("show");
+        }
+
+        // Close the dropdown menu if the user clicks outside of it
+        window.onclick = function(event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+</header>

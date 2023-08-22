@@ -1,0 +1,5 @@
+{{ range sort (readDir "/content/about/newsletters/files") "Name" "desc" }}
+{{ if (findRE ".pdf$" .Name) }}
+    <a class="newsletter" href="/woosc-website/newsletters/files/{{ .Name }}">{{ .Name }}</a>
+{{ end }}
+{{ end }}

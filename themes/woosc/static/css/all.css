@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap');
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ADD8E6;
+    border: 0;
+    margin: 0;
+    overflow-x: hidden;
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header li, a, b, h1, span, p {
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+}
+
+a, b, span {
+    background-color: #C5E8C6;
+    border: none;
+    border-radius: 14px;
+    color: #000000;
+    cursor: pointer;
+    font-size: clamp(10px, 2vh, 30px);
+    padding: 7px 14px;
+}
+
+a:hover, span:hover {
+        background-color: #B3CFB0;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: clamp(20px, 5vw, 70px);
+    text-decoration: none;
+}
+
+h3 {
+    border-bottom: 0;
+    font-family: 'Amatic SC', cursive;
+    font-size: clamp(19px, 5vw, 65px);
+    margin: 0 0 2vh;
+    text-decoration: none;
+}
+
+h4 {
+    font-family: 'Amatic SC', cursive;
+    font-size: clamp(20px, 4vw, 60px);
+    text-decoration: none;
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    font-family: 'Coming Soon', cursive;
+    font-size: clamp(20px, 2vw, 45px);
+}
+
+p {
+    border: 0;
+    font-family: 'Coming Soon', cursive;
+    font-size: clamp(20px, 2vw, 45px);
+    height: max-content;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1050px) {
+    a, b, span {
+        font-size: clamp(12px, 2vw, 45px);
+    }
+
+    h2 {
+        font-size: clamp(12px, 6vw, 45px);
+    }
+
+    p, li {
+        font-size: clamp(12px, 3vw, 45px);
+    }
+}

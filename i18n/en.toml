@@ -1,0 +1,310 @@
+# header
+[header_title]
+other = "Wickwar Out Of School Club"
+
+[header_button_open]
+other = "We are open"
+
+[ofsted_file_name]
+other = "Ofsted_inspection_2017.PDF"
+
+# dropdown one
+[header_button_one]
+other = "About"
+
+[header_button_one_one]
+other = "About us"
+
+[header_button_one_two]
+other = "Newsletter"
+
+[header_button_one_three]
+other = "Whats on"
+
+[header_button_one_four]
+other = "The Site"
+
+[header_button_one_five]
+other = "Menu"
+
+[header_button_one_six]
+other = "Gallery"
+
+[header_button_one_seven]
+other = "Our Development"
+
+
+# dropdown two
+[header_button_two]
+other = "Open times & information"
+
+[header_button_two_one]
+other = "Opening times & charges"
+
+[header_button_two_two]
+other = "Arrivals and departures"
+
+[header_button_two_three]
+other = "Club absence"
+
+[header_button_two_four]
+other = "Sickness accidents and emergencies"
+
+
+# buttons
+[header_button_three]
+other = "Policies"
+
+[header_button_four]
+other = "Ofsted"
+
+
+
+
+
+# first section - about-us
+[home_about_title]
+other = "About us"
+
+[home_about_content]
+other = "Wickwar Out of School Club (WOOSC) is based on the site of Alexander Hosea Primary School (AHPS) and was opened in 1998. We are a non-profit-making organisation run by a Voluntary Management Committee and are registered with Ofsted to care for up to 40 children before school, after school and during the school holidays."
+
+[home_about_funding]
+other = "If you are intersted in funding us or donating to WOOSC please get in contacct."
+
+
+# about-us row one
+[home_about_row_1_title]
+other = "Latest Newsletters"
+
+[home_about_row_1_content]
+other = ""
+
+[home_about_row_1_button]
+other = "<- Click here"
+
+
+# about-us row two
+[home_about_row_2_title]
+other = "The Site"
+
+[home_about_row_2_content]
+other = ""
+
+[home_about_row_2_button]
+other = "See more ->"
+
+
+# about-us row three
+[home_about_row_3_title]
+other = "Opening times and charges"
+
+[home_about_row_3_content]
+other = ""
+
+[home_about_row_3_button]
+other = "<- Learn more"
+
+
+# about-us row four
+[home_about_row_4_title]
+other = "Meet the Team"
+
+[home_about_row_4_content]
+other = ""
+
+[home_about_row_4_button]
+other = "Meet us ->"
+
+
+# about-us row five
+[home_about_row_5_title]
+other = "Regestration form & Handbook"
+
+[home_about_row_5_content]
+other = "(Download links)"
+
+[home_about_row_5_button_left]
+other = "Registration form"
+
+[home_about_row_5_button_right]
+other = "Handbook"
+
+[registration_from_file_title]
+other = "2023 registration form.doc"
+
+[handbook_file_title]
+other = "Club_Handbook_2022_23.doc"
+
+
+
+
+# aims
+[home_aims_title]
+other = "Our Aims"
+
+[home_aims_card_left]
+other = "Play"
+
+[home_aims_card_left_content]
+other = "To offer free play, giving children a wide choice of activities, including relaxation, craft and recreational activities."
+
+[home_aims_card_middle]
+other = "Affordability"
+
+[home_aims_card_middle_content]
+other = "To provide fun, quality, affordable out of school childcare in a safe caring environment for children in full time primary education."
+
+[home_aims_card_right]
+other = "Inclusion"
+
+[home_aims_card_right_content]
+other = "To provide equal opportunities for all the children in our care."
+
+
+
+
+
+# gallery
+[home_gallery_title]
+other = "Gallery"
+
+[home_gallery_one]
+other = "PLay"
+
+[home_gallery_two]
+other = "Sports"
+
+[home_gallery_three]
+other = "Craft"
+
+[home_gallery_four]
+other = "Visits"
+
+[home_gallery_five]
+other = "Our Envrionment"
+
+[home_gallery_six]
+other = "Celebrations"
+
+
+
+
+
+# footer
+[footer_address_title]
+other = "Where are we?"
+
+[footer_address_1]
+other = "Community Rooms"
+
+[footer_address_2]
+other = "Alexander Hosea Primary School Honeybourne Way Wickwar"
+
+[footer_address_3]
+other = "South Gloucestershire"
+
+[footer_address_4]
+other = "GL12 8NH"
+
+[footer_contact_title]
+other = "Contact Information"
+
+[contact_phone_number]
+other = "07815 561783"
+
+[contact_email]
+other = "woosc@hotmail.co.uk"
+
+
+
+
+
+# images - static
+# slider
+[home_slider_1]
+other = "/woosc-website/images/slider/1.JPG"
+[home_slider_2]
+other = "/woosc-website/images/slider/2.JPG"
+
+[home_slider_3]
+other = "/woosc-website/images/slider/3.JPG"
+
+[home_slider_4]
+other = "/woosc-website/images/slider/4.JPG"
+
+
+
+# about-us
+[home_about_row_1_image]
+other = "/woosc-website/images/about_newsletter.JPG"
+
+[home_about_row_2_image]
+other = "/woosc-website/images/about_site.JPG"
+
+[home_about_row_3_image]
+other = "/woosc-website/images/about_open.JPG"
+
+[home_about_row_4_image]
+other ="/woosc-website/images/about_team.JPG"
+
+[home_about_row_5_image]
+other ="/woosc-website/images/about_handbook.JPG"
+
+
+
+# gallery
+[home_gallery_image_1]
+other = "/woosc-website/images/gallery_preview/1.JPG"
+
+[home_gallery_image_2]
+other = "/woosc-website/images/gallery_preview/2.JPG"
+
+[home_gallery_image_3]
+other = "/woosc-website/images/gallery_preview/3.JPG"
+
+[home_gallery_image_4]
+other = "/woosc-website/images/gallery_preview/4.JPG"
+
+[home_gallery_image_5]
+other = "/woosc-website/images/gallery_preview/5.JPG"
+
+[home_gallery_image_6]
+other = "/woosc-website/images/gallery_preview/6.JPG"
+
+
+
+# assets
+[logo]
+other = "/woosc-website/assets/Logo.png"
+
+[logo_wide]
+other = "/woosc-website/assets/Logo-wide.png"
+
+[hamburger]
+other = "/woosc-website/assets/hamburger.svg"
+
+[close]
+other = "/woosc-website/assets/close.svg"
+
+[to_about]
+other = "/woosc-website/assets/transitions/to_about.svg"
+
+[to_aims]
+other = "/woosc-website/assets/transitions/to_aims.svg"
+
+[to_gallery]
+other = "/woosc-website/assets/transitions/to_gallery.svg"
+
+[to_footer]
+other = "/woosc-website/assets/transitions/to_footer.svg"
+
+[404]
+other = "/woosc-website/assets/404.svg"
+
+
+
+# settings
+[root]
+other = "file:///C:/Users/teilo/Documents/websites/WOOSC Final/woosc/public/"
+

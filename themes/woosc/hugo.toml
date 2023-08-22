@@ -1,0 +1,4 @@
+baseURL = 'http://example.org/'
+languageCode = 'en-us'
+title = 'WOOSC - Wickwar out of school club'
+theme = 'woosc'
