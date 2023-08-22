@@ -4,4 +4,4 @@ draft: false
 type: events
 ---
 
-We just had an amazing holiday club over the summer, so come back soon to see what's happening next.
+What a brilliant holiday club we just had, come back later to see what else is on!
