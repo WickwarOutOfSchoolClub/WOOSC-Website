@@ -33,6 +33,9 @@ other = "Gallery"
 [header_button_one_seven]
 other = "Our Development"
 
+[header_button_one_eight]
+other = "Testimonies"
+
 
 # dropdown two
 [header_button_two]
