@@ -1,9 +1,12 @@
+body {
+    background-color: #B3C0FF !important;
+}
+
 .container_404 {
-    margin-top: 10vh;
+    margin-top: 20vh;
     width: 100vw;
-    height: 110vh;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -18,12 +21,15 @@
 }
 
 .text_404 {
+    backdrop-filter: blur(2px);
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     position: absolute;
     z-index: 2;
+    padding: 10px;
+    background-color: rgba(10, 10, 10, 0.2);
+    border-radius: 14px;
 }
 
 @media only screen and (max-width: 1000px) {
