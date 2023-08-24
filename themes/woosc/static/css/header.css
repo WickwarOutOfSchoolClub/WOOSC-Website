@@ -43,13 +43,13 @@ header {
 }
 
 .menu_image {
-    display: block;
-    position: relative;
     background-color: #C5E8C6;
     border-radius: 10px;
+    display: block;
+    margin-left: 2px;
     margin-right: 2vh;
     padding: 1vh 2vw !important;
-    margin-left: 2px;
+    position: relative;
 }
 
 .menu_image:hover {
@@ -57,56 +57,60 @@ header {
 }
 
 span {
-    background-color: unset; !important;
+    background-color: unset;
+!important;
 }
 
 span:hover {
-    background-color: unset; !important;
+    background-color: unset;
+!important;
 }
 
 /* The Overlay (background) */
 .overlay {
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */
     height: 100%;
-    width: 0;
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
     left: 0;
+    overflow-x: hidden;
+    position: fixed;
     top: 0;
-    background-color: rgb(0,0,0); /* Black fallback color */
-    background-color: rgba(0,0,0, 0.9); /* Black w/opacity */
-    overflow-x: hidden; /* Disable horizontal scroll */
-    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+    transition: 0.5s;
+    width: 0;
+    z-index: 1;
+    backdrop-filter: blur(15px);
 }
 
 /* Position the content inside the overlay */
 .overlay-content {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
     flex-direction: column;
+    height: 80%;
+    justify-content: space-evenly;
+    margin-top: 30px;
     position: relative;
-    top: 10%; /* 25% from the top */
-    width: 100%; /* 100% width */
-    text-align: center; /* Centered text/links */
-    margin-top: 30px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+    text-align: center;
+    top: 10%;
+    width: 100%;
 }
 
 /* The navigation links inside the overlay */
 .overlay a {
-    text-decoration: none;
     display: block; /* Display block instead of inline */
+    text-decoration: none;
     transition: 0.3s; /* Transition effects on hover (color) */
+    filter: drop-shadow(0 0 30px black);
 }
 
 .overlay-content a {
+    font-size: 35px;
     line-height: 20px;
+    margin-bottom: 8px;
+    min-width: fit-content;
     padding: 2vh 0;
     width: 50vw;
-    min-width: fit-content;
-    margin-bottom: 8px;
-    font-size: 35px;
+    filter: drop-shadow(0 0 30px black);
 }
+
 /* When you mouse over the navigation links, change their color */
 .overlay a:hover, .overlay a:focus {
     color: #f1f1f1;
@@ -114,33 +118,34 @@ span:hover {
 
 /* Position the close button (top right corner) */
 .overlay .closebtn {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: center;
     line-height: 10px;
-    position: absolute;
-    top: 20px;
-    right: 45px;
     padding: 1vh 2vw !important;
+    position: absolute;
+    right: 45px;
+    top: 20px;
 }
-
 
 
 /* Dropdown Button */
 .dropbtn {
-    text-decoration: none;
-    display: block;
-    transition: 0.3s;
-    line-height: 20px;
-    padding: 2vh 0;
-    width: 50vw;
-    min-width: fit-content;
-    margin-bottom: 8px;
-    font-size: 35px;
-    font-family: 'Amatic SC', cursive;
-    border-radius: 14px;
-    visibility: visible;
     background-color: #C5E8C6;
+    border-radius: 14px;
+    display: block;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    line-height: 20px;
+    margin-bottom: 8px;
+    min-width: fit-content;
+    padding: 2vh 0;
+    text-decoration: none;
+    transition: 0.3s;
+    visibility: visible;
+    width: 50vw;
+    filter: drop-shadow(0 0 30px black);
+    border: none;
 }
 
 /* Dropdown button on hover & focus */
@@ -151,39 +156,42 @@ span:hover {
 
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
-    position: relative;
     display: block;
+    position: relative;
 }
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #B3C0FF;
-    min-width: 160px;
-    z-index: 1;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    width: 50vw;
     align-self: center;
+    background-color: #B3C0FF;
     border-radius: 14px;
+    display: none;
     margin-bottom: 1vh;
+    min-width: 160px;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    position: absolute;
+    width: 50vw;
+    z-index: 5;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
     width: 48vw;
+    filter: drop-shadow(0 0 5px rgba(20, 20, 20, 0.9))
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #B3CFB0;}
+.dropdown-content a:hover {
+    background-color: #B3CFB0;
+}
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {
-    display:flex;
     align-items: center;
-    justify-content: center;
+    display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 
@@ -195,12 +203,10 @@ span:hover {
 
     .overlay .closebtn {
         font-size: 40px;
-        top: 15px;
         right: 35px;
+        top: 15px;
     }
 }
-
-
 
 
 @media only screen and (max-width: 1050px) {
@@ -234,12 +240,14 @@ span:hover {
     }
 
     .menu_image {
-        width: 50px;
         height: 50px;
         padding: 5px 10px !important;
+        width: 50px;
     }
 
-    b {font-size: 1.5vh}
+    b {
+        font-size: 1.5vh
+    }
 
     .header_image_a {
         display: none;

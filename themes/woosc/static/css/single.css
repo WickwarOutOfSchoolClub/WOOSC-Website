@@ -164,10 +164,6 @@ td {
     .four { grid-row: 2; grid-column: 2;}
     .five { grid-row: 3; grid-column: 1;}
     .six { grid-row: 3; grid-column: 2;}
-
-    image:hover {
-        transform: none !important;
-    }
 }
 
 @media only screen and (max-width: 800px) {
@@ -181,6 +177,7 @@ td {
     .image:hover {
         z-index: 15;
         transform: scale(1.8);
+        filter: drop-shadow(0 0 15px black);
     }
 }
 
