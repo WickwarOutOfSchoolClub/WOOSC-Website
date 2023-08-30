@@ -5,6 +5,7 @@
             <div class="col">
                 <h2><u>{{ .Title }}</u></h2>
                 <div class="py-3">{{ .Content | markdownify }}</div>
+                {{ .Content }}
             </div>
         </div>
         <div class="row" data-masonry='{"percentPosition": true }'>

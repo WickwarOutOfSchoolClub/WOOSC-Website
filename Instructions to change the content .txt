@@ -1,0 +1,249 @@
+Instructions to change the content of the website:
+
+1) for changing the content on the "home" page
+	
+	go into the folder "i18n" 
+	open the file en.toml
+	make changes to relevant section
+	save the file
+	
+	e.g. to change the about content:
+		
+		once in the file open edit mode 
+		go to the line containing: [home_about_content]
+		the line below will have the text: other = "..." (where '...' is the current content)
+		change the text accordingly within the: ""
+		save the file
+
+
+	NOTE: you cannot add more section to this page without editing the raw code files,
+	      please contact Teilo Coates to change content on this page
+		
+
+
+2) for changing the images in 'gallery' pages
+	
+	list of gallery pages:
+		- Celebrations
+		- Craft
+		- Our_Environment
+		- Play
+		- Sports
+		- Visits
+		- site
+
+	go to the content folder
+	follow the folders to the page you want to change
+	delete or add pictures as needed (NOTE: pictures must be ending in ".jpg")
+
+
+
+3) for changing the content on any other page (including gallery pages)
+
+	go to the 'content' folder
+	follow the folders to the page you want to change
+	inside the folder will be an "index.md"
+	open this file and make changes as needed
+	save the file
+
+	e.g. to change the 'about us page:
+		
+		go into the 'content' folder
+		go into the 'about' folder
+		go into the 'about-us' folder
+		open the 'index.md' file
+		make changes to the file as needed
+		save the file
+
+
+
+4) for changing registration from and handbook:
+	
+	go into 'content' folder
+	upload new files
+	go back to root folder
+
+	go into 'i18n' folder
+	go into 'en.toml' file
+	go to the line containing: [registration_from_file_title] or: [handbook_file_title]
+	the line below will have the text: other = "..." (where '...' is the current file tile)
+	change the text accordingly within the: "..." to the new file title
+	save the file
+
+	e.g. for both documents the lines should look like:
+		
+		[registration_from_file_title]
+		other = "2023 registration form.doc"
+		
+		[handbook_file_title]
+		other = "Club_Handbook_2022_23.doc"
+
+
+
+5) for updating other files 
+		
+		go to the content folder
+		follow the folders to the page you want to change
+		delete or add files as needed
+
+		NOTE:
+			
+			- policies must end in ".docx"
+			- Ofsted file can change name but must be update in home page content file (i18n -> en.toml file)
+			- Newsletters must end in ".pdf"
+
+			The newsletter and policies pages auto add any files (with correct file extension) to their corresponding  pages
+
+
+
+
+
+
+
+
+General rules for text on pages - excluding 'home' page
+
+	Heading:
+		
+		Heading can be any of the following and are formatted like shown where the number of "#" is the level of the heading
+		h1 is the biggest - h6 is the smallest
+			
+		# h1 heading - usally title of page - DO NOT USE
+		## h2 heading - usally subtitle of page - DO NOT USE
+		### h3 heading - first content heading
+		#### h4 heading
+		##### h5 heading
+		###### h6 heading
+	
+		e.g. for the 'Arrivals and departures' page a subheading would be
+			
+			### Arrivals
+
+
+
+	Images:
+		
+		Images can be added using the following text:
+			
+			![Alt text - for accessibility](path to image "Title of image")
+
+		e.g. for food hygiene rating on 'Food' page
+			
+			![Our Food Hygiene Rating](FHR.jpg "Our Food Hygiene Rating")
+
+
+
+	Bullet points:
+		
+		bullet points can be added using the following format
+			
+			* point 1
+			* point 2
+			* point 3
+
+		NOTE: to end bullet point lists, leave a blank line at the end of the list before next text - see example
+
+		e.g. opening times and charges bullet points - including a title and non bullet pointed text
+
+			### Fee and payment Terms
+			* Fees must be received by the due date on the invoice.
+			* All casual session or Holiday Club users must pay at the time of booking or before the requested session takes place if the booking is made by telephone.
+			* Payment will be required for all sessions booked regardless of the child’s attendance.
+			* Please note that subscribed users' places are guaranteed and therefore, any holidays taken during term time will be charged at the full session price.
+			* There is a Penalty Charge for late collection after 6.00pm of £5 per quarter-hour per child.
+			* One-term written notice is required for cancellation of a subscribed place.
+			* Please note that late payment of fees will incur a £5.00 late payment charge.
+			
+			(This applies to regular, casual and holiday club users.)
+		
+
+		NOTE: bullet points have a different text to the rest of the page for ease of reading purposes as they are usually text heavy
+
+
+	
+	Links:
+		
+		links can be added using the following text:
+
+			[Title of link](link to page or document)
+		
+		e.g. link to Wickwar community centre:
+			
+			[Wickwar Community Centre](https://wickwar-community-centre.business.site/)
+
+		e.g. linking to a file:
+		
+			[This is a file](file.docx)
+			
+
+
+	Line breaks (AKA enter key):
+		
+		line breaks can be added by the text: {{< line_break >}}
+
+		e.g.
+			
+			here is some text
+		
+			{{< line_break >}}
+
+			here is some text with a blank line in between
+
+
+
+	Tables:
+
+		Tables can be added using the following formatting (the example below is annotated, see the example for unannotated)
+
+		| Column 1 title | Column 2 title |
+		|---------------------------------|
+		| Row 1 column 1 | Row 1 column 2|
+		| Row 2 column 1 | Row 2 column 2|
+		| Row 2 column 1 | Row 3 column 2|
+
+		e.g. the opening times and charges table:
+		
+			| Session Type                 | Times                     | Cost          |
+			|------------------------------|---------------------------|---------------|
+			| Before School Session        | 7:45 AM - Start of School | Regular £4.50 |
+			|                              |                           | Casual £4.85  |
+			| After School Session         | End of School - 6:00 PM   | Regular £9.00 |
+			|                              |                           | Casual £9.50  |
+			| Holiday Club - Half Day - AM | 8:00 AM - 12:30 PM        | £15.50        |
+			| Holiday Club - Half Day - PM | 12:30 PM - 6:00 PM        | £15.50        |
+			| Holiday Club - Half Day      | 9:00 AM - 3:00 PM         | £20.00        |
+			| Holiday Club - Full Day      | 8:00 AM - 6:00 PM         | £25.25        | 
+
+
+
+
+Extras that shouldn't need to be changed but can
+
+
+	the top 5 lines of each document follow the following:
+
+		---
+		title: "Title of page"
+		draft: false - has to remain false
+		type: type - summary of the title
+		---
+	
+	these should not have to change unless updating page title where you replace "title of page" with the title
+
+	e.g. for the 'Sickness, Accidents, and Emergencies' page
+
+		---
+		title: "Sickness, Accidents, First Aid and Emergencies"
+		draft: false
+		type: Sickness	
+		---
+
+
+
+
+
+
+
+
+
+

@@ -16,7 +16,7 @@ To help with this, we have been given funding for:
 * A quiet space for the children to chill out in with a mud kitchen for them to use
 
 
-Our site is located on the grounds of Alexander Hosea Primary School within the community center rooms.
+Our site is located on the grounds of Alexander Hosea Primary School within the community centre rooms.
 
 [Alexander Hosea Primary School](https://www.alexanderhoseaprimary.co.uk/)
-[Wickwar Community Center](https://wickwar-community-centre.business.site/)
+[Wickwar Community Centre](https://wickwar-community-centre.business.site/)

@@ -227,6 +227,7 @@ other = "woosc@hotmail.co.uk"
 # slider
 [home_slider_1]
 other = "/woosc-website/images/slider/1.JPG"
+
 [home_slider_2]
 other = "/woosc-website/images/slider/2.JPG"
 
@@ -289,25 +290,3 @@ other = "/woosc-website/assets/hamburger.svg"
 
 [close]
 other = "/woosc-website/assets/close.svg"
-
-[to_about]
-other = "/woosc-website/assets/transitions/to_about.svg"
-
-[to_aims]
-other = "/woosc-website/assets/transitions/to_aims.svg"
-
-[to_gallery]
-other = "/woosc-website/assets/transitions/to_gallery.svg"
-
-[to_footer]
-other = "/woosc-website/assets/transitions/to_footer.svg"
-
-[404]
-other = "/woosc-website/assets/404.svg"
-
-
-
-# settings
-[root]
-other = "file:///C:/Users/teilo/Documents/websites/WOOSC Final/woosc/public/"
-

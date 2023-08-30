@@ -24,4 +24,4 @@ We do cater for allergies as long as we are aware of them
 
 ###### Our Food Hygiene Rating:
 
-![Alt text](FHR.jpg "Our Food Hygiene Rating")
+![Our Food Hygiene Rating](FHR.jpg "Our Food Hygiene Rating")

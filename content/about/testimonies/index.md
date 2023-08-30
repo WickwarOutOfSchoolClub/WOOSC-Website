@@ -1,7 +1,7 @@
 ---
 title: "Testimonies"
 draft: false
-type: events
+type: testimonies
 ---
 
 

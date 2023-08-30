@@ -31,7 +31,7 @@ Payment for adhoc sessions MUST be made in advance.
 {{< line_break >}}
 {{< line_break >}}
 
-## Fee and payment Terms
+### Fee and payment Terms
 * Fees must be received by the due date on the invoice.
 * All casual session or Holiday Club users must pay at the time of booking or before the requested session takes place if the booking is made by telephone.
 * Payment will be required for all sessions booked regardless of the child’s attendance.
