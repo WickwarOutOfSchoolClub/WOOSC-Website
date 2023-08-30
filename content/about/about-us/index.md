@@ -7,7 +7,7 @@ type: about-us
 Note that where references are made to ‘school,’ ‘school clubs,’ ‘class teachers,’ ‘playground’ and ‘perimeters of the school’ then this refers to the arrangement at Alexander Hosea Primary School (AHPS).
 
 - Wickwar Out of School Club (WOOSC) provides before and after school care for children from the age of 4 up to Year 8 of secondary school.  
-- WOOSC may offer to provide holiday care only for children from the age of 3 up to Year 8 of secondary school where numbers and staffing allow information available on request.
+- WOOSC may offer to provide holiday care only for children from the age of 4 up to Year 8 of secondary school where numbers and staffing allow information available on request.
 - We have a safe, happy environment, supervised by qualified, professional and experienced staff.
 - We provide a varied programme including arts, sports, creative and imaginative play activities.
 - Children are supervised by club staff at all times until school starts or until they are collected by one of the persons named on the registration form from the after school club / holiday club.

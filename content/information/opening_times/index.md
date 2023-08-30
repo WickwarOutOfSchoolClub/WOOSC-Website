@@ -11,7 +11,7 @@ Please be aware that in extreme weather conditions where travelling could be haz
 As of: xx/xx/xxx (to be reviewed)
 | Session Type                 | Times                     | Cost          |
 |------------------------------|---------------------------|---------------|
-| Before School Session        | 7:40 AM - Start of School | Regular £4.50 |
+| Before School Session        | 7:45 AM - Start of School | Regular £4.50 |
 |                              |                           | Casual £4.85  |
 | After School Session         | End of School - 6:00 PM   | Regular £9.00 |
 |                              |                           | Casual £9.50  |
