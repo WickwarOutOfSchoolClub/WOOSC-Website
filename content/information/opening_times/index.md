@@ -15,10 +15,10 @@ As of: xx/xx/xxx (to be reviewed)
 |                              |                           | Casual £4.85  |
 | After School Session         | End of School - 6:00 PM   | Regular £9.00 |
 |                              |                           | Casual £9.50  |
-| Holiday Club - Half Day - AM | 8:00 AM - 12:30 PM        | £15.50        |
-| Holiday Club - Half Day - PM | 12:30 PM - 6:00 PM        | £15.50        |
+| Holiday Club - Half Day - AM | 8:00 AM - 12:30 PM        | £16.50        |
+| Holiday Club - Half Day - PM | 1:30 PM - 6:00 PM         | £16.50        |
 | Holiday Club - Half Day      | 9:00 AM - 3:00 PM         | £20.00        |
-| Holiday Club - Full Day      | 8:00 AM - 6:00 PM         | £25.25        |   
+| Holiday Club - Full Day      | 8:00 AM - 6:00 PM         | £28.50        |   
 
 {{< line_break >}}
 
