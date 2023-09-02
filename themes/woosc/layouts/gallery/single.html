@@ -1,5 +1,11 @@
 {{ define "main" }}
-<section class="main">
+<div class="main">
+
+    <section class="modal" id="myModal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="img01">
+    </section>
+
     <div style="margin-top: 18vh" class="container">
         <div class="row">
             <div class="col">
@@ -12,11 +18,35 @@
             {{- $images := .Resources.ByType "image" -}}
             {{ range $images }}
             <div class="col-6 col-md-4 col-xl-3 pb-3 px-2 image">
-                <img src="{{ .RelPermalink }}" height="{{ .Height }}" width="{{ .Width }}" alt="Gallery Image" class="img-fluid">
+                <img id="{{ .Name }}" src="{{ .RelPermalink }}" height="{{ .Height }}" width="{{ .Width }}" alt="Gallery Image" class="img-fluid" onclick="modalFunction('{{ .Name }}')">
             </div>
             {{ end }}
         </div>
     </div>
-</section>
+    <script>
+    // Get the modal
+    var modalImg = document.getElementById("img01");
+    var modal = document.getElementById("myModal");
+
+    function modalFunction(n) {
+        modal.classList.toggle('view')
+        modalImg.src = document.getElementById(n).src;
+    }
+
+    // Get the <span> element that closes the modal
+    var span = document.getElementsByClassName("close")[0];
+    var section = document.getElementsByClassName("modal")[0];
+
+    // When the user clicks on <span> (x), close the modal
+    span.onclick = function () {
+        modal.classList.remove('view');
+    }
+
+    section.onclick = function () {
+        modal.classList.remove('view');
+    }
+</script>
+
+</div>
 
 {{ end }}

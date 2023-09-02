@@ -186,3 +186,73 @@ td {
         transform: inherit;
     }
 }
+
+
+/* The Modal (background) */
+.modal {
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+    display: none; /* Hidden by default */
+    height: 100%; /* Full height */
+    left: 0;
+    overflow: auto; /* Enable scroll if needed */
+    padding-top: 100px; /* Location of the box */
+    position: fixed; /* Stay in place */
+    top: 10vh;
+    width: 100%; /* Full width */
+    z-index: 1; /* Sit on top */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+    display: block;
+    margin: auto;
+    max-height: 80%;
+    max-width: 1000px;
+    width: auto;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content {
+    animation-duration: 0.6s;
+    animation-name: zoom;
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.view {
+    display: block !important;
+    z-index: 20;
+}
