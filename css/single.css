@@ -257,3 +257,66 @@ td {
     display: block !important;
     z-index: 20;
 }
+
+.single_text:has(.person) {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.single_text:has(.person) h2 {
+    width: 80vw;
+}
+
+.person {
+    width: 35%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+.person h3 {
+    font-size: 50px;
+    float: right;
+    position: inherit;
+    margin-bottom: 2px;
+}
+
+.person h4 {
+    position: inherit;
+    font-size: 40px;
+    float: right;
+}
+
+.person p {
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
+
+.person img {
+    width: 200px;
+    height: auto;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 1050px) {
+    .person {
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .person {
+        width: 80%;
+    }
+}
