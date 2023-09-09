@@ -95,6 +95,36 @@ Instructions to change the content of the website:
 			The newsletter and policies pages auto add any files (with correct file extension) to their corresponding  pages
 
 
+) For new team members
+
+        Go into content folder
+        Go into information folder
+        Go into the_team folder
+        Go into index.md
+        Copy and fill out the following
+
+            {{< start >}}
+
+            ![Name](Picture)
+
+            ### Full Name
+            #### Job Title
+
+            Description - optional
+
+            {{< end >}}
+
+    	e.g. for Bob Fields (made up person)
+
+            {{< start >}}
+
+            ![Bob Fields](BobF.png)
+
+            ### Bob Fields
+            #### Play worker
+
+            {{< end >}}
+
 
 
 

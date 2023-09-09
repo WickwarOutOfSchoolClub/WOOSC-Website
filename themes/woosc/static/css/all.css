@@ -37,6 +37,7 @@ a:hover, span:hover {
         background-color: #B3CFB0;
 }
 
+
 h2 {
     font-family: 'Amatic SC', cursive;
     font-size: clamp(20px, 5vw, 70px);
