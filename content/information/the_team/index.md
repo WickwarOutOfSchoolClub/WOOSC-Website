@@ -28,3 +28,31 @@ please make this shorter
 {{< end >}}
 
 
+{{< start >}}
+
+![Connie Harris](ConnieH.png)
+
+### Connie Harris
+#### Play worker
+
+{{< end >}}
+
+
+{{< start >}}
+
+![Pat Trull](PatT.png)
+
+### Pat Trull
+#### Play worker
+
+{{< end >}}
+
+
+{{< start >}}
+
+![Yanina Bezvekhniei](YaninaB.png)
+
+### Yanina Bezvekhniei
+#### Play worker
+
+{{< end >}}

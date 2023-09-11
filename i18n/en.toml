@@ -53,6 +53,9 @@ other = "Club absence"
 [header_button_two_four]
 other = "Sickness accidents and emergencies"
 
+[header_button_two_five]
+other = "Meet the Team"
+
 
 # buttons
 [header_button_three]
