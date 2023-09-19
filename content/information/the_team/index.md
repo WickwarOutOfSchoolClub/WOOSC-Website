@@ -11,19 +11,21 @@ type: Team
 ### Mary Simmons
 #### Business Manager
 
-I joined the WOOSC team as Business Manager in 2020 and enjoy working within a close knit team of people.
+I joined the WOOSC team as Business Manager in 2020 and enjoy working within a close-knit team of people.
 
 {{< end >}}
 
 
 {{< start >}}
 
-![Hillary Turner](HillaryT.png)
+![Hilary Turner](HilaryT.png)
 
-### Hillary Turner
+### Hilary Turner
 #### Day Manager
 
-please make this shorter
+With 25 years of experience in education and SEND,
+I believe play should be assessable to all children in order for them to learn and grow
+and develop healthy bodies.
 
 {{< end >}}
 
@@ -53,6 +55,35 @@ please make this shorter
 ![Yanina Bezvekhniei](YaninaB.png)
 
 ### Yanina Bezvekhniei
+#### Play worker
+
+{{< end >}}
+
+{{< start >}}
+
+![Gail Butler](GailB.jpg)
+
+### Gail Butler
+#### Play worker
+
+{{< end >}}
+
+
+{{< start >}}
+
+![Sophia Turner](SophiaT.jpg)
+
+### Sophia Turner
+#### Play worker
+
+{{< end >}}
+
+
+{{< start >}}
+
+![Ayse Ozer](AyseO.jpg)
+
+### Ayse Ozer
 #### Play worker
 
 {{< end >}}
