@@ -145,21 +145,21 @@
 }
 
 .aim_card_1 {
-    background-image: url("/woosc-website/images/aim_play.JPG");
+    background-image: url("/images/aim_play.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .aim_card_2 {
-    background-image: url("/woosc-website/images/aim_affordability.JPG");
+    background-image: url("/images/aim_affordability.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .aim_card_3 {
-    background-image: url("/woosc-website/images/aim_inclusion.JPG");
+    background-image: url("/images/aim_inclusion.JPG");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
