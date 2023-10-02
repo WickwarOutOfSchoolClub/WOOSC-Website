@@ -229,67 +229,67 @@ other = "woosc@hotmail.co.uk"
 # images - static
 # slider
 [home_slider_1]
-other = "/woosc-website/images/slider/1.JPG"
+other = "/images/slider/1.JPG"
 
 [home_slider_2]
-other = "/woosc-website/images/slider/2.JPG"
+other = "/images/slider/2.JPG"
 
 [home_slider_3]
-other = "/woosc-website/images/slider/3.JPG"
+other = "/images/slider/3.JPG"
 
 [home_slider_4]
-other = "/woosc-website/images/slider/4.JPG"
+other = "/images/slider/4.JPG"
 
 
 
 # about-us
 [home_about_row_1_image]
-other = "/woosc-website/images/about_newsletter.JPG"
+other = "/images/about_newsletter.JPG"
 
 [home_about_row_2_image]
-other = "/woosc-website/images/about_site.JPG"
+other = "/images/about_site.JPG"
 
 [home_about_row_3_image]
-other = "/woosc-website/images/about_open.JPG"
+other = "/images/about_open.JPG"
 
 [home_about_row_4_image]
-other ="/woosc-website/images/about_team.JPG"
+other ="/images/about_team.JPG"
 
 [home_about_row_5_image]
-other ="/woosc-website/images/about_handbook.JPG"
+other ="/images/about_handbook.JPG"
 
 
 
 # gallery
 [home_gallery_image_1]
-other = "/woosc-website/images/gallery_preview/1.JPG"
+other = "/images/gallery_preview/1.JPG"
 
 [home_gallery_image_2]
-other = "/woosc-website/images/gallery_preview/2.JPG"
+other = "/images/gallery_preview/2.JPG"
 
 [home_gallery_image_3]
-other = "/woosc-website/images/gallery_preview/3.JPG"
+other = "/images/gallery_preview/3.JPG"
 
 [home_gallery_image_4]
-other = "/woosc-website/images/gallery_preview/4.JPG"
+other = "/images/gallery_preview/4.JPG"
 
 [home_gallery_image_5]
-other = "/woosc-website/images/gallery_preview/5.JPG"
+other = "/images/gallery_preview/5.JPG"
 
 [home_gallery_image_6]
-other = "/woosc-website/images/gallery_preview/6.JPG"
+other = "/images/gallery_preview/6.JPG"
 
 
 
 # assets
 [logo]
-other = "/woosc-website/assets/Logo.png"
+other = "/assets/Logo.png"
 
 [logo_wide]
-other = "/woosc-website/assets/Logo-wide.png"
+other = "/assets/Logo-wide.png"
 
 [hamburger]
-other = "/woosc-website/assets/hamburger.svg"
+other = "/assets/hamburger.svg"
 
 [close]
-other = "/woosc-website/assets/close.svg"
+other = "/assets/close.svg"
