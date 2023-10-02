@@ -1,5 +1,5 @@
 {{ range sort (readDir "/content/policies/documents") "Name" }}
 {{ if (findRE ".docx$" .Name) }}
-    <a class="policies" href="/woosc-website/policies/documents/{{ .Name }}">{{ .Name }}</a>
+    <a class="policies" href="/policies/documents/{{ .Name }}">{{ .Name }}</a>
 {{ end }}
 {{ end }}
