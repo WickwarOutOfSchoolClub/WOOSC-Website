@@ -1,4 +1,4 @@
-baseURL = 'https://t-m-coates.github.io/woosc-website/'
+baseURL = 'https://woosc.org.uk/'
 languageCode = 'en-us'
 title = 'WOOSC - Wickwar Out Of School Club'
 theme = 'woosc'
