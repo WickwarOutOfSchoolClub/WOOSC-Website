@@ -59,15 +59,6 @@ and develop healthy bodies.
 
 {{< end >}}
 
-{{< start >}}
-
-![Gail Butler](GailB.jpg)
-
-### Gail Butler
-#### Play worker
-
-{{< end >}}
-
 
 {{< start >}}
 
