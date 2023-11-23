@@ -19,6 +19,3 @@ Note that where references are made to ‘school,’ ‘school clubs,’ ‘clas
 - All staff members have an enhanced DBS check alongside safeguarding and prevent training.
 - Some staff members have experience with special education needs.
 
-
-
-here
