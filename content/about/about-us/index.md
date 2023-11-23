@@ -18,3 +18,7 @@ Note that where references are made to ‘school,’ ‘school clubs,’ ‘clas
 - Please note by registering your child with WOOSC you are deemed to accept the club’s rules, policies and procedures in line with OFSTED requirements.
 - All staff members have an enhanced DBS check alongside safeguarding and prevent training.
 - Some staff members have experience with special education needs.
+
+
+
+here
