@@ -79,3 +79,27 @@ and develop healthy bodies.
 #### Playworker 
 
 {{< end >}}
+
+
+{{< start >}}
+
+! ![Cerys](https://github.com/WickwarOutOfSchoolClub/WOOSC-Website/assets/146770670/385071f2-4ef8-413f-a3d4-ea4d85108ad0)
+
+### Cerys Forsdike
+#### Playworker
+
+
+{{< end >}}
+
+
+{{< start >}}
+
+! ![Teilo](https://github.com/WickwarOutOfSchoolClub/WOOSC-Website/assets/146770670/5cdc3092-ca93-40f7-ac5f-2a4e3e172e9c)
+
+### Teilo Coates
+#### Playworker
+
+{{< end >}}
+
+
+
