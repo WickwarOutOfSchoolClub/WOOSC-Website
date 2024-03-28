@@ -52,10 +52,10 @@ and develop healthy bodies.
 
 {{< start >}}
 
-![Yanina Bezvekhniei](YaninaB.png)
+! ![Lynne](https://github.com/WickwarOutOfSchoolClub/WOOSC-Website/assets/146770670/e1e4330d-a0ca-4645-8991-3ebd31846b33)
 
-### Yanina Bezvekhniei
-#### Play worker
+### Lynne Werreitt
+#### Playworker
 
 {{< end >}}
 
@@ -72,9 +72,10 @@ and develop healthy bodies.
 
 {{< start >}}
 
-![Ayse Ozer](AyseO.jpg)
+! ![Tracey](https://github.com/WickwarOutOfSchoolClub/WOOSC-Website/assets/146770670/ac5fbd9b-3052-4ead-9f1c-d438181f21a7)
 
-### Ayse Ozer
-#### Play worker
+
+### Tracey Pearce
+#### Playworker 
 
 {{< end >}}
