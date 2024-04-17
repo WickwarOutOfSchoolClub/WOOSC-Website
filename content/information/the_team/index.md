@@ -52,7 +52,7 @@ and develop healthy bodies.
 
 {{< start >}}
 
-! ![Lynne](https://github.com/WickwarOutOfSchoolClub/WOOSC-Website/assets/146770670/e1e4330d-a0ca-4645-8991-3ebd31846b33)
+![Lynne](https://github.com/WickwarOutOfSchoolClub/WOOSC-Website/assets/146770670/e1e4330d-a0ca-4645-8991-3ebd31846b33)
 
 ### Lynne Werreitt
 #### Playworker
@@ -72,7 +72,7 @@ and develop healthy bodies.
 
 {{< start >}}
 
-! ![Tracey](https://github.com/WickwarOutOfSchoolClub/WOOSC-Website/assets/146770670/ac5fbd9b-3052-4ead-9f1c-d438181f21a7)
+![Tracey](https://github.com/WickwarOutOfSchoolClub/WOOSC-Website/assets/146770670/ac5fbd9b-3052-4ead-9f1c-d438181f21a7)
 
 
 ### Tracey Pearce
@@ -83,7 +83,7 @@ and develop healthy bodies.
 
 {{< start >}}
 
-! ![Cerys](https://github.com/WickwarOutOfSchoolClub/WOOSC-Website/assets/146770670/385071f2-4ef8-413f-a3d4-ea4d85108ad0)
+![Cerys](https://github.com/WickwarOutOfSchoolClub/WOOSC-Website/assets/146770670/385071f2-4ef8-413f-a3d4-ea4d85108ad0)
 
 ### Cerys Forsdike
 #### Playworker
@@ -93,8 +93,6 @@ and develop healthy bodies.
 
 
 {{< start >}}
-
-! ![Teilo](https://github.com/WickwarOutOfSchoolClub/WOOSC-Website/assets/146770670/5cdc3092-ca93-40f7-ac5f-2a4e3e172e9c)
 
 ### Teilo Coates
 #### Playworker
