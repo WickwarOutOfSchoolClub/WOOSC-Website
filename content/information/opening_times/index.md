@@ -26,7 +26,7 @@ We prefer payment to be made via Bank Transfer, however, we do accept childcare 
 
 The majority of our children attend sessions regularly, however, adhoc (Casual or Holiday Club) sessions are also available and are dependent on the number of children attending any one session.
 
-Payment for adhoc sessions MUST be made in advance.
+Payment for adhoc sessions MUST be made in advance via https://bookwhen.com/woosc
 
 {{< line_break >}}
 {{< line_break >}}
