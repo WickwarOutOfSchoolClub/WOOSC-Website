@@ -11,10 +11,10 @@ Please be aware that in extreme weather conditions where travelling could be haz
 
 | Session Type                 | Times                     | Cost          |
 |------------------------------|---------------------------|---------------|
-| Before School Session        | 7:45 AM - Start of School | Regular £6.50 |
-|                              |                           | Casual £7.00  |
-| After School Session         | End of School - 6:00 PM   | Regular £12.50 |
-|                              |                           | Casual £13.00  |
+| Before School Session        | 7:45 AM - Start of School | Regular £6.75 |
+|                              |                           | Casual £7.25  |
+| After School Session         | End of School - 6:00 PM   | Regular £13.00 |
+|                              |                           | Casual £13.50  |
 
  Holiday Club 
  
