@@ -131,13 +131,13 @@ other = "Regestration form & Handbook"
 other = "(Download links)"
 
 [home_about_row_5_button_left]
-other = "Registration form"
+other = "Registration Form"
 
 [home_about_row_5_button_right]
 other = "Handbook"
 
 [registration_from_file_title]
-other = "registration form.doc"
+other = "Registration Form.doc"
 
 [handbook_file_title]
 other = "Club_Handbook.doc"
@@ -293,3 +293,4 @@ other = "/assets/hamburger.svg"
 
 [close]
 other = "/assets/close.svg"
+
