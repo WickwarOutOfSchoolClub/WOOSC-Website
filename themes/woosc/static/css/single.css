@@ -322,3 +322,35 @@ td {
         width: 80%;
     }
 }
+
+/* ============================================================
+   Mobile & accessibility improvements (2026)
+   Additive overrides for readability and touch targets.
+   Delete this block to revert.
+   ============================================================ */
+
+/* Newsletter & policy download links -> comfortable, tappable buttons.
+   (Padding gives a ~44px touch target; kept the same green pill look.) */
+.newsletter, .policies {
+    padding: 14px 20px;
+    line-height: 1.3;
+    text-align: center;
+    transition: background-color .2s ease;
+}
+
+@media only screen and (max-width: 800px) {
+    /* Stop body copy collapsing to ~11px on phones (was font-size: 3vw) */
+    .single_text {
+        font-size: clamp(16px, 4.5vw, 24px);
+        width: 90vw;
+        /* Always clear the fixed header, even on short landscape screens */
+        margin-top: max(20vh, 100px);
+    }
+
+    /* Full-width, readable download links instead of 75vw / 3vw text */
+    .single_text p a,
+    .newsletter, .policies {
+        width: 90vw;
+        font-size: clamp(16px, 4.2vw, 22px);
+    }
+}
