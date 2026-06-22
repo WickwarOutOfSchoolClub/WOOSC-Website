@@ -50,15 +50,6 @@ and develop healthy bodies.
 {{< end >}}
 
 
-{{< start >}}
-
-![Lynne](https://github.com/WickwarOutOfSchoolClub/WOOSC-Website/assets/146770670/e1e4330d-a0ca-4645-8991-3ebd31846b33)
-
-### Lynne Werreitt
-#### Playworker
-
-{{< end >}}
-
 
 {{< start >}}
 
@@ -83,19 +74,40 @@ and develop healthy bodies.
 
 {{< start >}}
 
-![Cerys](https://github.com/WickwarOutOfSchoolClub/WOOSC-Website/assets/146770670/385071f2-4ef8-413f-a3d4-ea4d85108ad0)
 
-### Cerys Forsdike
-#### Playworker
 
+### Rianna Porter
+#### Playworker 
 
 {{< end >}}
 
 
+
 {{< start >}}
 
-### Teilo Coates
-#### Playworker
+
+### Alice McNamara
+#### Playworker 
+
+{{< end >}}
+
+
+
+{{< start >}}
+
+
+### Daisy Tolfree
+#### Playworker 
+
+{{< end >}}
+
+
+
+{{< start >}}
+
+
+### Charlie Tilley
+#### Playworker 
 
 {{< end >}}
 
